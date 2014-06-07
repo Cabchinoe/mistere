@@ -1,0 +1,73 @@
+body,form,p,ul,li,a{margin:0;padding:0;}
+ul,li{list-style:none;}
+.clear{clear:both;}
+button{font-family:Microsoft YaHei;}
+
+#content{background:#ebecec;}
+#main{width:1000px;margin:0 auto;font-family:Microsoft YaHei;}
+#header{height:38px;width:1000px;background:#f4f4f4;font-size:16px;border-bottom:1px solid #d0cecf;}
+#headerTitle{float:left;color:#d3d3d3;line-height:38px;margin-left:19px;}
+#welcomeMsg{float:right;color:#4e4e4e;font-size:14px;line-height:38px;}
+#welcomeMsg #stuHome{width:99px;display:inline-block;color:#4e4e4e;text-decoration:none;text-align:center;border-left:1px solid #d0cecf;}
+#exitEnter{decoration:underline;font-size:14px;padding:8px;color:#1d8c7b;}
+
+#menu{height:85px;background:url(img/homeBg.jpg) 0 0 no-repeat;border-bottom:1px solid #d0cecf;border-top:0;}
+#menu ul{float:right;color:#8d8d8d;height:85px;font-size:14px;line-height:85px;}
+#menu ul a{text-decoration:none;}
+#menu ul li{float:left;width:124px;text-align:center;border-left:1px solid #d0cecf;height:19px;line-height:19px;margin-top:35px;}
+#menu ul li:first-child{border:0;}
+
+#menu2{height:63px;background:url(img/adminHeader.jpg) 0 0 no-repeat;}
+#menu2 ul{float:left;color:#545454;height:85px;font-size:16px;line-height:85px;margin-left:30px;}
+#menu2 ul a{text-decoration:none;}
+#menu2 ul li{float:left;width:58px;text-align:center;border-left:1px solid #d0cecf;height:20px;line-height:20px;margin-top:38px;}
+#menu2 ul li:first-child{border:0;}
+#menu2  button{float:right;height:33px;width:159px;color:#fff;background:#4bbfc4;border:0;border-radius:3px;font-size:16px;margin-top:25px;margin-right:38px;}
+
+.homeLiCont{width:932px;margin:0 auto;height:352px;border-bottom:1px solid #909090;padding-top:56px;}
+.homeLiCont img{float:left;width:234px;height:303px;}
+.homeLiCont .homeLiTxt{float:left;margin-left:35px;}
+.homeLiCont .AcTime{font-size:18px;margin-bottom:25px;}
+.homeLiCont .AcName{font-size:30px;margin-bottom:5px;}
+.homeLiCont .AcOrang{font-size:14px;color:#7e7e7e;padding-bottom:24px;width:387px;border-bottom:1px solid #909090;margin-bottom:28px;}
+.homeLiCont .AcPlace{font-size:14px;color:#4f4f4f;}
+.homeLiCont .AcNum{font-size:14px;margin-top:7px;color:#4f4f4f;}
+.homeLiCont .AcHour{font-size:14px;margin-top:7px;color:#4f4f4f;}
+.JoinEnter {width:178px;height:35px;border:0;color:#fff;font-size:16px;font-family:Microsoft YaHei;border-radius:3px;background:#4ca1a4;margin-top:28px;}
+
+.pageFooter{width:180px;height:75px;margin:0 auto;}
+.pageFooter a{width:25px;height:18px;font-size:14px;text-decoration:none;margin-top:23px;display:inline-block;text-align:center;}
+
+.greenColor{color:#3b8843;}
+.notSelect{color:#8f8f8f;}
+.select{color:#084e01;}
+
+#stuHomeHeader{width:1000px;height:217px;background:url(img/userHeader.jpg) 0 0 no-repeat;}
+.stuHomeList{width:1000px;height:321px;background:url(img/userList.jpg) 0 0 no-repeat;}
+.homeListLeft{float:left;font-size:18px;color:#2cc8b8;margin-left:110px;margin-top:12px;width:118px;}
+.homeListRight{float:left;margin-left:62px;margin-top:38px;}
+.homeListRight img{float:left;width:142px;height:186px;}
+.homeListRight .homeListTxt{float:left;margin-left:28px;}
+.homeListRight .homeListTxt .homeAcTime{font-size:11px;margin-bottom:15px;margin-top:-2px;}
+.homeListRight .homeListTxt .takingState{margin-top:-3px;}
+.homeListRight .homeListTxt .homeAcName{font-size:18.45px;font-weight:bold;margin-bottom:1px;}
+.homeListRight .homeListTxt .homeAcOrang{font-size:8.6px;color:#939393;padding-bottom:13px;margin-bottom:13px;width:240px;border-bottom:1px solid #939393;}
+.homeListRight .homeListTxt .homeAcPlace{font-size:8.6px;color:#8a8a8a;margin-bottom:}
+.homeListRight .homeListTxt .homeAcNum{font-size:8.6px;color:#8a8a8a;}
+.homeListRight .homeListTxt .homeAcHour{font-size:11px;color:#8a8a8a;}
+.homeListRight .homeListTxt .takingState{float:right;font-size:9.85px;}
+.homeListRight .homeListTxt .confirmState a{float:right;font-size:12px;margin-top:20px;}
+
+
+.notTaking{width:63px;height:19px;border:1px solid #949494;border-radius:3px;text-align:center;color:#949494;}
+.isTaking{width:63px;height:19px;border:1px solid #469f92;border-radius:3px;text-align:center;color:#469f92;}
+.notConfirm{color:#757676;text-decoration:none;}
+.haveConfirm{color:#35aba5;text-decoration:underline;}
+
+
+/*admin的四个按钮*/
+.confirmEnter{width:77px;height:28px;background:#4ca1a4;color:#fff;border:0;border-radius:2px;font-size:16px;margin-right:6px;}
+.checkEnter{width:77px;height:28px;background:#828383;color:#fff;border:0;border-radius:2px;font-size:16px;margin-right:6px;}
+.changeEnter{width:77px;height:28px;background:#828383;color:#fff;border:0;border-radius:2px;font-size:16px;margin-right:6px;}
+.delEnter{width:77px;height:28px;background:#ae4646;color:#fff;border:0;border-radius:2px;font-size:16px;}
+.AcBtn{margin-top:35px;margin-left:40px;}

@@ -1,0 +1,18 @@
+body,form,p,ul,li,a{margin:0;padding:0;}
+
+#mainDiv{height:707px;width:1000px;background:url(img/registerBg.jpg) 0 0 no-repeat;margin:0 auto;}
+#mainCont{padding-top:221px;margin-left:559px;}
+#mainCont form{color:#353535;font-family:Microsoft YaHei;font-size:18px;}
+
+#mainCont form input{vertical-align:middle;margin-left:12px;}
+#mainCont form input{background:url(img/opacity0.png) 0 0 repeat-x;width:243px;height:38px;border:0;border-radius:5px;border:1px solid #9b9b9b;}
+#mainCont form div{margin-bottom:17px;}
+#mainCont form div:nth-child(2){margin-left:18px;}
+#mainCont form div:nth-child(3){margin-left:18px;}
+#mainCont form div:nth-child(4){margin-left:18px;}
+
+#mainCont button{width:134px;height:39px;border:0;opacity:0.7;color:#fff;font-size:18px;font-family:Microsoft YaHei;border-radius:2px;}
+#registerEnter{margin-left:71px;background:#4ba0a3;margin-top:30px;}
+#aFront{color:#565656;font-size:13px;margin-left:6px;}
+#mainCont  a{text-decoration:underline;}
+#mainCont  a:visited{color:#565656;}
